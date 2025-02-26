@@ -8,8 +8,8 @@ const Login = () => {
 
   const [signState, setSignState] = useState("Sign In");
   const [name, setName] = useState("");
-  const [email, setEmail] = useState("");
-  const [password, setPassword] = useState("");
+  const [email, setEmail] = useState("firdaussocial94@gmail.com");
+  const [password, setPassword] = useState("@123Pidot");
   const [loading, setLoading] = useState(false)
 
   const user_auth = async (event) => {
